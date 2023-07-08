@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.78.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "read-solana": "ts-node read-solana.ts",
+    "write-solana": "ts-node write-solana.ts",
+    "create-mint": "ts-node token-program/01-create-mint.ts",
+    "create-token-account": "ts-node token-program/02-create-token-account.ts",
+    "mint-token": "ts-node token-program/03-mint-token.ts"
+  }
+}
